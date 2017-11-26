@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-#include <QCoreApplication>
-
-int main(int argc, char *argv[])
-{
-    QCoreApplication a(argc, argv);
-
-    return a.exec();
-=======
 //#include "stdafx.h"
 #include <string>
 #include <iostream>
@@ -89,10 +80,10 @@ int main()
     }
 
         double x = h / str.size() * 100;
-        cout << "1= " << i << endl;
-        cout << "2= " << k << endl;
+        //cout << "1= " << i << endl;
+       // cout << "2= " << k << endl;
        // cout << "3= " << p << endl;
-        cout << "4= " << h << endl;
+       // cout << "4= " << h << endl;
 
 
 
@@ -108,5 +99,4 @@ int main()
         cin >> m;
         return 0;
 
->>>>>>> f89441a2aaf15d1fd1a1b3ac321b819f691bae68
 }
